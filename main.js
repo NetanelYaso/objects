@@ -54,3 +54,69 @@
 //     }
 // }
 // lastNamestring()
+
+// function newString(x){
+//  return x.toUpperCase()
+// }
+// newString("hello")
+
+// function getNewstring(myString){     //תתקן את הקוד הזה
+//     sum =""
+//     for(i=0;i<myString.length; i++){
+//         sum+=i + "," + myString[i]
+//     }
+//     return sum
+// }
+
+// function getBiggerLength(str){
+//     var maxLength = "";
+//     var strValue = "";
+//     for(var i=0; i<str.length; i++){
+//         if(str[i]==":"){
+//             startIndex=i+1;
+//         }
+//         if(str[i]==","){
+//             endIndex=i+1;
+//             strValue = str.substring(startIndex, endIndex)
+//         }
+//         if(str.length==i+1){
+//             endIndex=i+1;
+//             strValue = str.substring(startIndex, endIndex)
+//         }
+//         if(strValue.length > maxLength.length){
+//             maxLength = strValue;
+//         }
+//     return maxLength
+// }
+// }
+
+
+
+//שאלה לפני אחרונה
+
+
+// שאלה אחרונה
+// function namesString(fullName){
+//     var spaceCounter = 0
+//     for(var i =0; i< fullName.length; i++){
+//         if(fullName[i]==" "){
+//             spaceCounter++
+//         }
+//     }
+//     if(spaceCounter==0){
+//         return "one word"
+//     }
+//     else if(spaceCounter==1){
+//         return "two word"
+//     }
+//     else if(spaceCounter>=2){
+//         if(spaceCounter>2){
+//             return "three word"
+//         }
+        
+//     }
+// }
+
+// function someFunc(){
+
+// }
