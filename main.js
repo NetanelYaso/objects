@@ -60,13 +60,13 @@
 // }
 // newString("hello");
 
- function getNewstring(myString){     //תתקן את הקוד הזה
-     sum ="";
-     for(i=0;i<myString.length; i++){
-         sum+=i + "." + myString[i];
-     }
-     return sum;
- }
+//  function getNewstring(myString){     //תתקן את הקוד הזה
+//      sum ="";
+//      for(i=0;i<myString.length; i++){
+//          sum+=i + "." + myString[i];
+//      }
+//      return sum;
+//  }
 
 // function getBiggerLength(str){    תשאל את יעקב על השאלה הזאת
 //     var maxLength = "";
@@ -165,16 +165,19 @@
 // }
 // console.log(returnAllletters('sayonara'));
 
-function someFunc(str,index){
-     for(var i=0; i<str.length; i++){
+function someFunc(str,index){       // לא סיימת את התרגיל הזה
+    for(var i=0; i<str.length; i++){
         if(index>str.length){
-        }
+            return "האינדקס גדול מידי"
+       }
     }
-}
+       return str.subsr(i)
+    }
 
-function someFunc(){
     
-}
+
+
+
 //שאלה לפני אחרונה
 
 
