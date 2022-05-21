@@ -60,13 +60,13 @@
 // }
 // newString("hello");
 
-// function getNewstring(myString){     //תתקן את הקוד הזה
-//     sum ="";
-//     for(i=0;i<myString.length; i++){
-//         sum+=i + "," + myString[i];
-//     }
-//     return sum;
-// }
+ function getNewstring(myString){     //תתקן את הקוד הזה
+     sum ="";
+     for(i=0;i<myString.length; i++){
+         sum+=i + "." + myString[i];
+     }
+     return sum;
+ }
 
 // function getBiggerLength(str){    תשאל את יעקב על השאלה הזאת
 //     var maxLength = "";
@@ -106,42 +106,75 @@
 // function ifAfound(Astring){
 //     for(var i =0; i<Astring.length; i++){
 //         if(Astring[i]=="a"){
-//           return Astring.indexOf("a")
+//           return Astring.indexOf("a");
 //         }
 //     }
-//     return "not found"
+//     return "not found";
 // }
 
 // function trueOrfalse(mystring){
 //     for(var i= 0; i<mystring.length; i++){
 //         if(mystring[i]== "r"){
-//             return true
+//             return true;
 //         }
 //     }
-//     return false
+//     return false;
 
 // }
 
 // function stringAndletter(str,letter){
 //     for(var i =0;i<str.length;i++ ){
 //         if(str[i]==letter){
-//            return true 
+//            return true ;
 //         }  
 //     }
-//     return false
+//     return false;
 // }
 
-function someFunc(str,letter){
-    for(var i =0; i<str.length; i++){
-        if(str[i]==letter){
-            console.log(str.indexOf(letter))
+// function letterInString(str,letter){   //תשאל את יעקב על השאלה הזאת
+//     var indexletter = 0
+//     indexletter = str.lastIndexOf(letter)
+//     if(indexletter != -1){
+//         console.log(indexletter)
+//     }
+//     else{
+//         console.log('אין את התו בסטרינג')
+//     } 
+//     }
+
+//  function returnletters(x){
+//    return x.substr(0,3);
+//  }
+//  console.log(returnletters('sayonara'));
+
+//  function returnFromY(word){
+//     for(var i=0; i<word.length; i++){
+//         if(word[i]=='y'){
+//              return word.substr(i,4); 
+//         }  
+//     }   
+//  }
+//  console.log(returnFromY('sayonara'));
+
+// function returnAllletters(x){
+//     for(var i = 0; i<x.length; i++){
+//         if(x[i]=='o'){
+//             return x.substr(i);
+//         }
+//     }
+// }
+// console.log(returnAllletters('sayonara'));
+
+function someFunc(str,index){
+     for(var i=0; i<str.length; i++){
+        if(index>str.length){
         }
     }
-        return str.lastIndex(console.log("letter is not in the string"))
 }
 
-
-
+function someFunc(){
+    
+}
 //שאלה לפני אחרונה
 
 
