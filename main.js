@@ -68,27 +68,28 @@
 //      return sum;
 //  }
 
-// function getBiggerLength(str){    תשאל את יעקב על השאלה הזאת
-//     var maxLength = "";
-//     var strValue = "";
-//     for(var i=0; i<str.length; i++){
-//         if(str[i]==":"){
-//             startIndex=i+1;
-//         }
-//         if(str[i]==","){
-//             endIndex=i+1;
-//             strValue = str.substring(startIndex, endIndex)
-//         }
-//         if(str.length==i+1){
-//             endIndex=i+1;
-//             strValue = str.substring(startIndex, endIndex)
-//         }
-//         if(strValue.length > maxLength.length){
-//             maxLength = strValue;
-//         }
-//     return maxLength;
-// }
-// }
+//  function getBiggerLength(str){    // תשאל את יעקב על השאלה הזאת
+//      var maxLength = "";
+//      var strValue = "";
+//      for(var i=0; i<str.length; i++){
+//          if(str[i]==":"){
+//              startIndex=i+1;
+//          }
+//          if(str[i]==","){
+//              endIndex=i+1;
+//              strValue = str.substring(startIndex, endIndex);
+//          }
+//          if(str.length==i+1){
+//              endIndex=i+1;
+//              strValue = str.substring(startIndex, endIndex);
+//          }
+//          if(strValue.length > maxLength.length){
+//              maxLength = strValue;
+//          }
+//      return maxLength;
+//  }
+//  }
+
 
 
 //שאלות ראשונות צריכות להיות פה
@@ -141,11 +142,10 @@
 //         console.log('אין את התו בסטרינג')
 //     } 
 //     }
-
-//  function returnletters(x){
-//    return x.substr(0,3);
-//  }
-//  console.log(returnletters('sayonara'));
+//   function returnletters(x){   
+//     return x.substr(0,3); 
+//  } 
+//     console.log(returnletters('sayonara'));
 
 //  function returnFromY(word){
 //     for(var i=0; i<word.length; i++){
@@ -165,17 +165,130 @@
 // }
 // console.log(returnAllletters('sayonara'));
 
-function someFunc(str,index){       // לא סיימת את התרגיל הזה
-    for(var i=0; i<str.length; i++){
-        if(index>str.length){
-            return "האינדקס גדול מידי"
-       }
-    }
-       return str.subsr(i)
-    }
+// function someFunc(str,index){       
+//         if(index>str.length){
+//             return "האינדקס גדול מידי"
+//        }
+//         return str.substr(index,3)
+//     }
+      
 
+// function printTwoNum(str,num1,num2){     //תחזור לזה  
+//    if(num1<num2){
+//        str.substring(num1,num2) 
+//    }
     
+// }
+// printTwoNum("netanel yaso",2,5)    
 
+// function printThreechars(word){ 
+//   return word.substring(0,3)     
+// }    
+
+// 
+
+// function printFromO(word){
+//     for(var i =0; i<word.length; i++){  
+//    if(word[i] == "o") {
+//        return word.substring(i)
+//     }
+//   }
+// }
+
+// function fistAndLastName(){
+//     var fullname = prompt()
+//     var firstname = ""
+//     var secondname = ""
+//     console.log(fullname.length)
+//     for(var i =0; i< fullname.length; i++){
+//         if(fullname[i]==" "){
+//             console.log(true);
+//           firstname =  fullname.substring(fullname[0],fullname.indexOf(" "))
+//           secondname = fullname.substring(fullname.indexOf(" ")) 
+//         }
+//         else{
+//             console.log(false);
+//             firstname =  fullname.substring(fullname[0],fullname.indexOf(" "))
+//             secondname = fullname.substring(fullname.indexOf(" ")) 
+//         }
+//     }
+//     console.log(firstname,secondname)
+
+// }
+
+// function sameStrings(string1,string2){   
+    
+//     if(string1.toLowerCase()==string2.toLowerCase()){
+//         console.log('they are equal')
+//     }
+// }
+// sameStrings("netanel","Netanel")
+
+// function theSameStrings(string1,string2) {
+//     if(string1.toUpperCase()==string2.toUpperCase()){
+//         console.log('they are equal')
+//     }
+// }
+// theSameStrings('yaso','YASO')
+
+// function printLongestName(){
+//     var firstname = prompt()
+//     var lastname = prompt()
+//     if(firstname.length>lastname.length){
+//         console.log(firstname);
+//     }
+//     else{
+//         console.log(lastname);
+//     }
+// }
+// printLongestName()
+
+// function printName(){
+//     var fname = prompt('enter first name')
+//     var lname = prompt('enter last name')
+//     for(var i=0; i<fname.length; i++){
+//         if(fname[i]=='a'){
+//             console.log('the letter a is in the name');
+//         }
+//         if(lname.includes('api')){
+//         console.log(true + 'the string api is in')
+//         }
+//     }
+// }
+// printName()
+
+// function longString(myString){
+//     if(myString.length > 5){
+//         return 'long'
+//     }
+//     return 'short'
+// }
+// longString('netanel')
+
+// function contryName(name1){
+//     if(name1.length<3){
+//         return 'yes'
+//     }
+//     return 'no'
+// }
+
+// function stringAndchar(myString,char){
+//     if(myString.length >6){
+//         return myString
+//     }
+//     return myString.indexOf(char)
+// }
+
+// function fullNameString(firstname,lastname) {
+//     return firstname[0]+ '.'+' '+ lastname.toUpperCase()
+// }
+
+// function lastName(lastname1,lastname2) {
+//     if(lastname1.length>lastname2.length){
+//        console.log(lastname2.toLowerCase())
+//         return lastname1
+//     }
+// }
 
 
 //שאלה לפני אחרונה
@@ -204,3 +317,8 @@ function someFunc(str,index){       // לא סיימת את התרגיל הזה
 
 
 
+// function plus(num1,num2){
+//     var result = num1+num2
+//     console.log(result);
+// }
+// plus(2,2)
