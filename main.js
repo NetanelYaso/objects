@@ -291,10 +291,17 @@
 // }
 
 
-//שאלה לפני אחרונה
 
 
-// שאלה אחרונה
+// function nameAndchar(name1,char1) {
+//     for(var i=0; i<name1.length; i++){
+//         if(name1[i]==char1){
+//             return name1
+//         }
+//     }
+//     return "the char is not in"
+// }
+
 // function namesString(fullName){
 //     var spaceCounter = 0;
 //     for(var i =0; i< fullName.length; i++){
@@ -317,8 +324,3 @@
 
 
 
-// function plus(num1,num2){
-//     var result = num1+num2
-//     console.log(result);
-// }
-// plus(2,2)
